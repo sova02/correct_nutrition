@@ -1,0 +1,48 @@
+@media screen and (max-width: 1199px) {
+    .more-header .container {
+        padding: 15px 15px 25px 15px;
+    }
+
+    .more-description .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .more-principles .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .principles-list {
+        max-width: 100%;
+    }
+
+    .cards {
+        justify-content: center;
+    }
+
+    .more-description-text {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .more-principles-text {
+        grid-template: 1fr / 50% 50%;
+    }
+
+    .principles-image {
+        width: 100%;
+    }
+
+    .principles-image img {
+        width: 100%;
+    }
+
+    .more-principles-text span {
+        font-size: 14px;
+    }
+
+    .more-menu ul li a {
+        font-size: 9px;
+    }
+}

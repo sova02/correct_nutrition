@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.header {
+    padding: 25px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 48px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li {
+    margin: 0 20px;
+    transition-duration: .3s;
+}
+
+.menu ul li:hover {
+    transform: scale(1.1);
+}
+
+.menu a {
+    text-decoration: none;
+    color: #1f4425;
+}
+
+.button {
+    cursor: pointer;
+    color: white;
+    border-radius: 30px;
+    background: #5d9e68;
+    padding: 10px 15px;
+    border: 0;
+}
+
+.button:hover {
+    background: #47794f;
+}
+
+.main {
+    padding: 70px 0 50px 0;
+}
+
+.main .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-info {
+    max-width: 550px;
+    box-sizing: border-box;
+}
+
+.main-info h2 {
+    font-size: 45px;
+    color: #1f4425;
+    margin-bottom: 80px;
+}
+
+.main-info p {
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 70px;
+}
+
+.main-info-action .button {
+    width: 156px;
+    height: 43px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.main-image img {
+    width: 550px;
+    border-radius: 20px;
+}
+
+.about {
+    padding: 70px 0;
+    background-color: #5d9e6817;
+}
+
+.about .container {
+    display: grid;
+    grid-template: 240px 300px / 700px;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-info h2 {
+    font-size: 45px;
+    color: #51803d;
+    margin-bottom: 50px;
+}
+
+.about-info p {
+    font-size: 24px;
+    color: #51803d;
+
+}
+
+.about-image img {
+    width: 300px;
+}
+
+.reviews {
+    padding: 70px 0;
+}
+
+.reviews h2 { 
+    font-size: 45px;
+    color: #2a2d3e;
+    margin-bottom: 80px;
+}
+
+.cards {
+    display: grid;
+    grid-template: repeat(2, 500px) / repeat(3, 1fr);
+    justify-items: center;
+    gap: 40px;
+}
+
+.card {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr;
+    justify-items: center;
+    grid-row-gap: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.card-image img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.card-name {
+    font-family: sans-serif;
+    font-size: 24px;
+    color: #2a2d3e;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card-review {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-style: italic;
+    text-align: center;
+    color: #2a2d3e;
+}

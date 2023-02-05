@@ -1,0 +1,42 @@
+@media screen and (max-width: 1199px) {
+    .layout {
+        padding: 15px;
+    }
+
+    .main-image {
+        width: 50%;
+    }
+
+    .main-info {
+        width: 50%;
+    }
+
+    .main-image img {
+        width: 100%;
+    }
+
+    .about .container {
+        grid-template: 1fr / 1fr;
+    }
+
+    .about-info p {
+        width: 100%;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .main .container {
+        flex-direction: column;
+    }
+
+    .main-info-action {
+        margin-bottom: 30px;
+    }
+}
